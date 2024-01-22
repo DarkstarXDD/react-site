@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #21222A;
+    max-width: 550px;
+    padding: 31px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6.68px;
+}
+
+.logo-img {
+    display: block;
+    width: 30px;
+}
+
+.logo-text {
+    color: #61DAFB;
+    font-size: 1.390rem;
+    font-weight: 700;
+}
+
+.project-details {
+    color: #DEEBF8;
+    font-size: 1rem;
+    margin-left: auto;
+}
+
+main {
+    background-color: #282D35;
+    background-image: url("./src/assets/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    max-width: 550px;
+    padding: 57px 26px 125px 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2.44rem;
+    padding-left: 26px;
+}
+
+ul {
+    padding: 0 74px;
+    margin-top: 46px;
+}
+
+ul > li {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.2rem;
+}
