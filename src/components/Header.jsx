@@ -7,7 +7,7 @@ export default function Header() {
         <img className="logo-small" src={logoSmall} alt="react" width="28" />
         <p className="logo-text">ReactFacts</p>
       </div>
-      <p>React Couse = Project 1</p>
+      <p>React Couse - Project 1</p>
     </header>
   )
 }
