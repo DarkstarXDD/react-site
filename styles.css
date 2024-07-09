@@ -65,6 +65,7 @@ body {
   background-image: url("./src/assets/images/react-icon-large.png");
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-size: contain;
   padding: 1.75rem 2rem;
 }
 
